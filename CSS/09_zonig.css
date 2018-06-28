@@ -18,6 +18,7 @@ main{
     background: dimgrey;
     height: 500px;
     margin: 20px;
+    
 
 }
 
@@ -25,6 +26,7 @@ main{
     width: 50%;
     height: 250px;
     float: left;
+    
 }
 #a{
     background: firebrick;
