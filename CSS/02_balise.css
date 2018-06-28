@@ -1,0 +1,21 @@
+/* Je cible une (ou plusieurs) balise avec son nom */
+
+body{
+    background: palegreen
+    
+}
+.jaune{
+    background-color: yellow
+}
+
+
+/* je cible un ID avec un # devant */
+#unique{
+    background-color: black;
+    color: azure;/* couleur de texte */
+    
+    font-size: 25px/* taille de la police */
+}
+
+
+

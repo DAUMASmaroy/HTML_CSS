@@ -1,0 +1,33 @@
+p{
+    background: green;
+
+}
+p span{ /* cible les <span> enfants d'une balise <p> */
+    background: firebrick;
+}
+body{
+    margin: 0 auto;
+    background: dimgrey;
+
+}
+div{
+    width: 90%;
+    background: darkturquoise;
+    margin: 0 auto;
+
+
+}
+.photo{
+    height: 11vh; /* vh= viewport ou hauteur de l'ecran*/
+    width: 8vw; /* vw= viewport width ou largeur de l'ecran*/
+    padding: 5vh;/* EMMET padding: 5vh; => p5vh +tab*/
+    background: url(../img/paysage2.jpg);
+    background-repeat: no-repeat;/* l'image ne se repete pas - EMMET background-repeat => bgr + tab*/
+    border: 5px double black; /* 3valeur=> taille style et couleur*/
+    margin: 2vh;/* EMMET m2vh +tab */
+    float: left; /* effet flottant plaçant les elements côte à côte alors que dans le flux naturel du web ils se placent les uns au dessus des autres */
+}
+/* par convention cette classe est placée à la fin du fichier CSS */
+.clear{
+    clear: both;
+}

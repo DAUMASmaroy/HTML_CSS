@@ -1,0 +1,52 @@
+#contenu{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid goldenrod;
+
+}
+header{
+    background: fuchsia;
+    height: 100px;
+
+}
+nav{
+    background: firebrick;
+    height: 30px;
+}
+
+main{
+    background: dimgrey;
+    height: 500px;
+    margin: 20px;
+
+}
+
+#a, #b, #c, #d{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+#a{
+    background: firebrick;
+
+}
+#b{
+    background: dimgrey;
+
+}
+#c{
+    background: deepskyblue;
+
+}
+#d{
+    background: yellow;
+}
+
+footer{
+    background: firebrick;
+    height: 100px;
+}
+
+clear{
+    clear: both;
+}
