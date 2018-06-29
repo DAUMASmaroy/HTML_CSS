@@ -35,7 +35,7 @@ nav a:hover{
 }
 header{
     
-    height: 120px;
+    height: 130px;
     margin: 0px;
     padding: 5em 4em;
     background: #c7efcf;
@@ -70,4 +70,7 @@ main{
     border: 1.5em solid gray;
     padding-top: 6px;
     
+}
+mark{
+    background: gray;
 }
