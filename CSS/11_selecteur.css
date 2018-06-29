@@ -1,0 +1,73 @@
+*{
+
+    font-family: sans-serif;
+
+}
+nav{
+    background: black;
+    color: white;
+    padding: 0 0.5em;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav a{ /* tous les liens enfants de la balise nav */
+
+    float: left;
+    text-decoration: none; /* supprime la decoration par defaut (effet souligné) */
+    color: white; /* couleur du texte*/
+    background: black; /* couleur de fond*/
+    height: 2.8em;
+    line-height: 2.7em; /* hauteur de l'interligne pour centrer verticalement le texte*/
+    padding: 0em 2em; /* 2valeurs => 0 pour haut et le bas et 2 pour droite et gauche*/
+    font-size: 1.2em; /* taille du texte*/
+    transition: 2s; /* temps de lanimation ici une transitio, de 2secondes au survole de la souris sur mes liens de navigation*/
+
+}
+
+nav a:hover{
+    background: #fda500;
+    color: black;
+}
+header{
+    
+    height: 120px;
+    margin: 0px;
+    padding: 5em 4em;
+    background: #c7efcf;
+    
+    
+    
+}
+main{
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+
+#a{
+    width: 27%;
+    height: 448px;
+    background-color: #c7efcf;
+    padding: 5em 4em;
+    float: left;
+    border: 1.5em solid gray;
+    padding-top: 6px;
+    
+
+
+}
+#b{
+    width: 33%;
+    height: 390px;
+    background-color: #c7efcf;
+    padding: 5em 4em;
+    float: left;
+    border: 1.5em solid gray;
+    padding-top: 6px;
+    
+}

@@ -1,0 +1,33 @@
+#contenu{
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid fuchsia;
+    
+}
+
+
+
+header{
+    background: #ffa3ac;
+    height: 120px;
+    margin: 0px;
+    padding-left: 2px;
+    padding-top: 6px;
+}
+
+main{
+
+    height: 620px;
+    
+    
+
+}
+
+footer{
+
+
+    background-color: #ffa3ac;
+    height: 120px;
+    padding-left: 2px;
+    padding-top: 6px;
+}
