@@ -1,0 +1,11 @@
+nav{
+    background: linear-gradient(to left, #3C1025, #C73FA2);
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+}
+
+body{
+    background-image: url(../img/hapimag-resort-binz-ruegen-deutschland3.jpg);
+
+}

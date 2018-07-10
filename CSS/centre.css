@@ -1,0 +1,22 @@
+#conteneur{
+    width: 960px; /* valeur habituelle pour les sites car facilement divisible pour organiser les blocs*/
+    background: #f4c400;
+    margin: 0 auto;
+    /* centage automatique = âs de marge en haut et bas mais la marge à gauche et droite sera la même quelque soit la taille de l'ecran*/
+    padding: 30px;
+    box-sizing: border-box;
+    /* permet de verouiller le conteneur sur px sans le padding vienne agrandir le bloc*/
+    text-align: center;
+}
+.a, .b{
+    height: 150px;
+    width: 450px;
+    border: 2px solid black;
+    margin: 10px 10px;
+    display: inline-block;
+    /* affichage en 2 blocs alignés, INLINE seul cree 2 cadres qui entourent uniquement le contenu comme le surlignage, BLOCK quel affiche 2 blocs l'un au dessus de l'autre*/
+    vertical-align: middle;
+    /*centrer verticalement les blocs a et b*/
+    /*a et b ayant les mêmes propriétés on les rassemble*/
+  
+}
