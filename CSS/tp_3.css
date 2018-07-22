@@ -1,0 +1,96 @@
+body{
+    /* width: 1200px; */
+}
+h1{
+    position: relative;
+    bottom: 60px;
+    left: 45px;
+}
+h2{
+    position: relative;
+    bottom: 150px;
+    left: 50%;
+    color: #53D2F6;
+}
+#aide{
+    position: relative;
+    bottom: 170px;
+    left: 49.5%;
+}
+span{
+    position: relative;
+    bottom: 60px;
+    left: 25px;
+    color: palevioletred;
+}
+#span2{
+    position: relative;
+    bottom: 170px;
+    left: 800px;
+    color: gray;
+}
+
+/* #pannier{
+    position: relative;
+    bottom: 0px;
+    left: 10px;
+}
+p{
+    position: relative;
+    bottom: 250px;
+    left: 1300px;
+}
+#article{
+    position: relative;
+    bottom: 250px;
+    left: 100px;
+} */
+nav ul li{
+    list-style: none;
+    float: left;
+    
+}
+
+nav{
+    background: #53D2F6;
+    height: 48px;
+    width: 100%;
+    line-height: 50px;
+    position: relative;
+    bottom: 170px;
+}
+#bandeau{
+    position: absolute;
+    top: 152px;
+    display: block;
+    width: 100%;
+}
+h3{
+    color: #53D2F6;
+}
+.a{
+    position: absolute;
+    top:700px;
+    
+}
+.b{
+    position: absolute;
+    top: 700px;
+    left: 500px;
+}
+.c{
+    position: absolute;
+    top: 700px;
+    right: 70px;
+    float: left;
+}
+.flotte{
+    float: right;
+
+}
+.block{
+    float: left;
+    position: absolute;
+    margin: 10px;
+}
+
