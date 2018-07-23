@@ -1,0 +1,70 @@
+body{
+    
+    background-color: gray;
+}
+.contenaire{
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+}
+h1{
+    height: 10px;
+    position: absolute;
+    top: 0%;
+    right: 76%;
+}
+h2{
+    position: absolute;
+    top: 0%;
+    right: 45%;
+}
+.aide{
+    position: absolute;
+    right: 45%;
+}
+span{
+    position: absolute;
+    top: 10%;
+    right: 69%;
+    color: #e63770;
+}
+.gris{
+    color: gray;
+    position: absolute;
+    top: 10%;
+    right: 42%;
+}
+.nav{
+    background-color: #93deff;
+    
+
+}
+nav ul li{
+    
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    position: relative;
+    top: 75px;
+}
+
+
+#parfum{
+    position: absolute;
+    top: 20%;
+    display: inline-block;
+    width: 51.5%;
+}
+.d{
+    width: 23%;
+}
+.c{
+    background-color:red;
+    
+}
+h3{
+    color: #93deff;
+}
+footer{
+    background-color: #93deff;
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: gray;
+}
+.contenaire{
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+}
+h1{
+    position: absolute;
+    top: -8px;
+    left: 245px;
+}
