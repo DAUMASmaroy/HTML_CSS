@@ -1,21 +1,39 @@
+body{
+    background: #5C4C42;
+
+}
+
 nav{
     /* background: linear-gradient(to right, #3C1025, #C73FA2); */
-    background-image: url(../img/Grand-prize-winner-bertrand-benoit-exterior-1200px.jpg);
+    background-image: url(../img/Grand-prize-winner4.png);
     height: 80px;
     width: 100%;
     line-height: 80px;
 
 }
+.initial{
+    font-family: 'Tangerine', cursive;
+    color: #e7b3b3;
+    padding-top: 126px;
+    margin-left: 835px;
+    font-size: 639%;
+}
 h1{
-    margin-left: 800px;
-    padding-top: 80px;
-    
+    font-family: 'Tangerine', cursive;
+    margin-left: 667px;
+    padding-top: 20px;
+    color: #e7b3b3;
+    font-size: 754%
 
+}
+hr{
+    width: 380px;
+    margin-left: 39%;
 }
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin: 0px 20px;
+    margin: 0px 275px;
     position: relative;
     top: -20px;
     
@@ -35,7 +53,21 @@ nav a:hover{
 
 
 }
-body{
-    background: #5C4C42;
+.dev{
+    margin-left: 34%;
+    font-size: 300%;
 
+}
+.coté{
+    
+    width: 592px;
+    position: absolute;
+    left: 30%;
+    top: 69%;
+}
+.coté2{
+    width: 592px;
+    position: absolute;
+    right: 69%;
+    top: 69%;
 }
