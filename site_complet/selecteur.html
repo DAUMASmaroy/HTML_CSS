@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Page d'acceuil</title>
+    <title>Selecteur</title>
 
     <link rel="stylesheet" href="css/style.css">
-    
-<!-- Choisissez une police Google Fonts et ajoutee-là ici: -->
+
+    <!-- Choisissez une police Google Fonts et ajoutee-là ici: -->
 
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-<!-- on ira ajouter dans le css ensuite : font-family: 'Dancing Script', cursive;-->
+    <!-- on ira ajouter dans le css ensuite : font-family: 'Dancing Script', cursive;-->
 
     <!-- <link rel="stylesheet" href="font-awesome/fontawesome-free-5.1.1-web/css/fontawesome.min.css"> -->
 
@@ -21,6 +22,7 @@
     <meta name="description" content="site HTML-CSS">
 
 </head>
+
 <body>
     <!-- header>div*4-->
 
@@ -35,19 +37,22 @@
                 </button>
             </a>
             <img src="img/logo.png" alt="logo">
-        </div><!-- ./ #logo -->
-        
-        <div id="slogan"><h1>Site HTML CSS multipages</h1></div>
+        </div>
+        <!-- ./ #logo -->
+
+        <div id="slogan">
+            <h1>Site HTML CSS multipages</h1>
+        </div>
 
         <div id="social">
 
             <a href="https://www.instagram.com" target="_blank">
                 <!-- target="blank" => pour ouvrir un lien dans une autre page -->
-            <i class="fab fa-instagram" aria-hidden="true"></i>
+                <i class="fab fa-instagram" aria-hidden="true"></i>
             </a>
 
             <a href="https://www.facebook.com" target="_blank">
-            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
             </a>
         </div>
 
@@ -55,9 +60,9 @@
     </header>
 
     <nav>
-        <a href="index.html" class="activ">Acceuil</a>
+        <a href="index.html">Acceuil</a>
         <a href="texte.html">Texte</a>
-        <a href="selecteur.html">Selecteur</a>
+        <a href="selecteur.html" class="activ">Selecteur</a>
         <a href="image.html">Image</a>
         <a href="position.html">Position</a>
         <a href="zoning.html">Zoning</a>
@@ -70,12 +75,42 @@
     </nav>
 
     <main>
-        <div class="a"></div>
-        <div class="b"></div>
 
+        <div id="selecteur">
+        <h2 class="titre">Selecteur</h2>
+
+        <h3 class="black">Les selecteurs</h3>
+        <ul>
+            <li class="orange">texte n°1</li>
+            <li class="rouge"><strong>texte n°2</strong></li>
+            <li class="rouge">texte n°3</li>
+            <li class="rouge">texte n°4</li>
+            <li>texte n°5</li>
+            <li>texte n°6</li>
+            <li class="rouge">texte n°7</li>
+            <li class="rouge">texte n°8</li>
+            <li class="rouge">texte n°9</li>
+            <li class="orange">texte n°10</li>
+            
+            <li class="rouge"><strong>Zone A</strong></li>
+            <li class="rouge">Zone B Zone B<span>/!\texte/!\</span>Zone B Zone B</li>
+            <li class="vert">Zone C</li>
+
+            <li>Zone<span class="vert">D</span></li>
+        </ul>
+        </div>
+        <footer>
+            <div class="c"></div>
+        </footer>
     </main>
 
-    <footer><div class="c"></div></footer>
 
-</body>
-</html>
+
+
+
+
+
+
+    </body>
+    
+    </html>

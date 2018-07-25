@@ -72,7 +72,7 @@ header{
     width: 25%;
     background: aqua;
     padding: 15px;
-    text-align: center;
+    /* text-align: center; */
 }
 #slogan{
     float: left;
@@ -97,3 +97,142 @@ header a{
 
 }
 /*-------fin header -------*/
+
+
+.clear{
+    clear: both;
+}
+
+/*-------debut nav -------*/
+nav{
+    background-color: #a2738c;
+    height: 45px;
+}
+nav a{
+    text-decoration: none;
+    margin: 40px;
+    border: 2px solid white;
+    border-radius: 10px 0 ;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    top: 11px;
+    left: 60px;
+    color: #fff;
+    background-color: #c06c84;
+    
+}
+.activ{
+    background-color: black;
+}
+
+/*-------fin nav -------*/
+
+/* FAIRE LE ZONING AVEC DES HAUTEURS ET LARGEURS AVANT DE PLACER LES ELEMENTS DANS LES ZONES POUR ENSUITE SUPPRIMER LES HAUTEURS */
+
+/* ------debut page accaueil------ */
+.a{
+    width: 60%;
+    background: #eaafaf;
+    height: 262px;
+    margin: auto;
+}
+.b{
+    width: 60%;
+    background-color: #a2738c;
+    height: 93px;
+    margin: auto;
+}
+.c{
+    background-color: aqua;
+    height: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+/* ------fin page accaueil------ */
+
+/* ------debut page texte ------ */
+section{
+    background-color: #ffe6eb;
+    width: 50%;
+    margin: auto;
+}
+.titre{
+    color: black;
+
+}
+
+.texte2{
+    margin-top: 60px;
+}
+.black{
+    color: black;
+}
+/* ------fin page texte ------ */
+
+/* ------debut page selecteur------ */
+#selecteur{
+    background-color: #a2738c;
+    width: 60%;
+    margin: auto;
+}
+ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.orange{
+    color: orange;
+
+}
+.rouge{
+    color: red;
+}
+.bleu{
+    color: blue;
+}
+.vert{
+    color: green;
+}
+span{
+    color: blue;
+}
+/* ------fin page selecteur------ */
+
+/* ------debut page image------ */
+.contenu{
+    background-color: #a2738c;
+    width: 60%;
+    height: 920px;
+    margin: auto;
+
+}
+.titreimg{
+    color: black;
+}
+.image_fond{
+    height: 417px;
+    width: 100%;
+}
+.titre_fond{
+    position: absolute;
+    color: black;
+    top: 328px;
+}
+.texte_img{
+    
+    border-radius: 10px 10px;
+    width: 60%;
+    position: relative;
+    bottom: 259px;
+    left: 230px;
+    background-color: rgba(255, 255, 255, 0.486);
+    padding: 10px;
+}
+.titre_fond2{
+    position: absolute;
+    color: black;
+    top: 767px;
+}
+
+/* ------fin page image------ */
