@@ -1,0 +1,261 @@
+
+/* zone du haut */
+#haut{
+    background-color: gray;
+    height: 25px;;
+}
+.a, .b, .c{
+    float: left;
+    margin: 0px 210px;
+    color: white;
+}
+/* zone du haut */
+
+/* hedear */
+.logo{
+    margin-left: 10%;
+    margin-top: 1%;
+   
+}
+.devis{
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    
+}
+.devis img{
+    position: absolute;
+    top: 25%;
+    right: 104%;
+}
+.compte{
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+.compte img{
+    position: absolute;
+    top: 25%;
+    left: 110%;
+}
+.conseil{
+    position: absolute;
+    top: 12%;
+    left: 60%;
+}
+.conseil img{
+    position: absolute;
+    top: 12%;
+    right: 104%;
+}
+.panier{
+    position: absolute;
+    top: 12%;
+    left: 70%;
+}
+
+.panier img{
+    height: 50px;
+    width: 40px;
+    position: absolute;
+    top: 25%;
+    left: 110%;
+}
+.hr_haut{
+    width: 23%;
+    position: absolute;
+    left: 56%;
+    top: 11%;
+    
+}
+.hr_bas{
+    position: absolute;
+    width: 23%;
+    left: 56%;
+    top: 18%;
+}
+/* fin du hedear */
+
+/* nav */
+
+nav{
+    background-color: #e7eff3;
+    height: 24px;
+    margin-top: 2%;
+}
+nav a{
+    text-decoration: none;
+    border: 2px solid white;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    position: relative;
+    top: 2px;
+    left: 60px;
+    color: black;
+}
+/* #searchbar{
+    position:relative; 
+    width:1040px; 
+    height:100px;
+} */
+.formulaire{
+    display:inline-block;
+}
+.formulaire .champ{
+    width: 140px;
+    height: 16px;
+    position: absolute;
+    top: 21.3%;
+    left: 89%;
+}
+.formulaire .bouton{ 
+    background-image: url(images/searchbar_button.png);
+    background-repeat: no-repeat;
+   width: 18px;
+    height: 21.3px;
+   
+    position: absolute;
+    top: 21.5%;
+    left: 97%;
+}
+/* fin de la nav */
+
+/*section 1*/
+
+#position{
+    float: left;
+}
+#position img{
+    position: relative;
+    top: 25px;
+    left: 35%;
+}
+.carrelage{
+    float: left;
+}
+.carrelage img{
+    height: 45%;
+    width: 60%;
+    position: relative;
+    top: 25px;
+    left: 430px;
+}
+.carrelage2{
+    float: left;
+}
+.carrelage2 img{
+    height: 195px;
+    width: 241px;
+    position: relative;
+    bottom: 171px;
+    left: 1209px;
+    
+}
+
+.rose1{
+    background-color: #e40475;
+    width: 239px;
+    height: 36px;
+    position: absolute;
+    top: 453px;
+    left: 1218px;
+    color: white;
+    text-align: center;
+}
+.rose2{
+    background-color: #e40475;
+    width: 241px;
+    height: 36px;
+    position: absolute;
+    top: 664px;
+    left: 1217px;
+    color: white;
+    text-align: center;
+}
+.com{
+    background-color: rgba(133, 131, 131, 0.418);
+    width: 778px;
+    height: 30px;
+    position: absolute;
+    top: 667px;
+    left: 281px;
+    color: white;
+}
+.carré1{
+    background-color: rgba(102, 101, 101, 0.418);
+    width: 13px;
+    height: 12px;
+    position: absolute;
+    top: 28%;
+    left: 75%;
+    border: 1px solid #fff;
+}
+.carré2{
+    background-color: rgba(65, 64, 64, 0.418);
+    width: 13px;
+    height: 12px;
+    position: absolute;
+    top: 28%;
+    left: 80%;
+    border: 1px solid #fff;
+}
+.carré3{
+    background-color: rgba(102, 101, 101, 0.418);
+    width: 13px;
+    height: 12px;
+    position: absolute;
+    top: 28%;
+    left: 85%;
+    border: 1px solid #fff;
+}
+.carré4{
+    background-color: rgba(102, 101, 101, 0.418);
+    width: 13px;
+    height: 12px;
+    position: absolute;
+    top: 28%;
+    left: 90%;
+    border: 1px solid #fff;
+}
+.carré5{
+    background-color: rgba(102, 101, 101, 0.418);
+    width: 13px;
+    height: 12px;
+    position: absolute;
+    top: 28%;
+    left: 95%;
+    border: 1px solid #fff;
+}
+/*fin section 1*/
+
+/* section 2*/
+.fab_fa-dashcube{
+   
+   
+    
+}
+
+/* fin section 2*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear{
+    clear: both;
+}

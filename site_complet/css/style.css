@@ -504,12 +504,275 @@ button{
 }
 .border{
     border: 2px solid black;
+
+  
     
 } /* fin zoning 4 */
 
 
+/* zoning 5*/
+.header_3{
+    background-color: #ffff8f;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;text-align: center;
+}
+.nav_2{
+    background-color: #ffcdb5;
+    width: 80%;
+    height: 26px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_2{
+      background-color: gray;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.zone1{
+    background-color: #feb062;
+    width: 50%;
+    height: 50%;
+    float: left;
+    text-align: center;
+}
+.zone2{
+    background-color: #900048;
+    width:  50%;
+    height: 50%;
+    float: right;
+    text-align: center;
+}
+.zone3{
+    background-color: #a2738c;
+    width: 50%;
+    height: 50%;
+    float: left;
+    text-align: center;
+}
+.zone4{
+    background-color: #aa530e;
+    width: 50%;
+    height: 50%;
+    float: right;
+    text-align: center;
+}
+/* fin zoning 5*/
+
+/*zoning 6*/
+.haut1{
+    background-color: #4e709d;
+    width: 10%;
+    height: 200px;
+    position: absolute;
+    top: 364%;
+    left: 30%;
+    text-align: center;
+}
+.haut2{
+    background-color: #89a4c7;
+    width: 20%;
+    height: 200px;
+    margin: 0 auto;
+    position: absolute;
+    top: 364%;
+    left: 40%;
+    text-align: center;
+
+}
+.haut3{
+    background-color: #cdd5e0;
+    width: 10%;
+    height: 200px;
+    position: absolute;
+    top: 364%;
+    left: 60%;
+    text-align: center;
+    
+}
+.menu{
+    background-color: #17bebb;
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20.5%;
+    text-align: center;
+}
+.zone_de_gauche_b{
+    background-color: aqua;
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    
+}
+.A{
+    background-color: pink;
+    width: 40%;
+    height: 40%;
+    float: left;
+    text-align: center;
+}
+.B{
+    background-color: #993399;
+    width: 40%;
+    height: 40%;
+    float: left;
+    text-align: center;
+}
+.slideshow{
+    background-color: #ffd65d7f;
+    width: 80%;
+    height: 40%;
+    float: left;
+    text-align: center;
+}
+.C{
+    background-color:#a2738c;
+    width: 20%;
+    height: 20%;
+    float: left;
+    text-align: center;
+}
+.D{
+    background-color: aqua;
+    width: 20%;
+    height: 20%;
+    float: left;
+    text-align: center;
+}
+.E{
+    background-color: #a2738c;
+    width: 20%;
+    height: 20%;
+    float: left;
+    text-align: center;
+}
+.F{
+    background-color: aqua;
+    width: 20%;
+    height: 20%;
+    float: left;
+    text-align: center;
+}
+.bas_b{
+    background-color: #c4ffdd;
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*fin zoning 6*/
+
+/*zoning 7*/
+
+
+
+/* .ensemble_d{
+    background-color: #900048;
+    width: 10%;
+    height: 500px;
+    
+    margin-left: 10%;
+    border: white 2px solid;
+    float: left;
+    
+}
+.O{
+    background-color: #17bebb;
+    width: 60%;
+    height: 30%;
+    border: white 2px solid;
+    
+
+}
+.G{
+    background-color: #900048;
+    width: 10%;
+    height: 500px;
+    border: white 2px solid;
+    
+    
+}
+.ensemble_1{
+    background-color: #900048;
+    width: 100px;
+    height: 100px;
+    border: white 2px solid;
+   
+
+}
+.ensemble_2{
+    background-color: #900048;
+    width: 100px;
+    height: 100px;
+    border: white 2px solid;
+   
+}
+.ensemble_3{
+    background-color: #900048;
+    width: 100px;
+    height: 100px;
+    
+    border: white 2px solid;
+}
+.ensemble_4{
+    background-color: #900048;
+    width: 100px;
+    height: 100px;
+    border: white 2px solid;
+    
+}
+.ensemble_5{
+    background-color: #900048;
+    width: 100px;
+    height: 100px;
+    border: white 2px solid;
+    
+}
+.ensemble_6{
+    background-color: #17bebb;
+    width: 60%;
+    height: 30%;
+    border: white 2px solid;
+}
+
+
+
+
+fin zoning 7 */
+
+
 
 /*--------fin page zoning-------*/
+
+/*-------- page tableau-------------*/
+.vol{
+    color: black;
+    margin-left: 45%;
+}
+td, th{
+    border: aqua 2px solid;
+    text-align: center;
+}
+
+.tableau{
+    background-color: rgb(186, 247, 247);
+}
+table{
+    margin-left: 25%;
+    border-collapse: collapse;
+}
+.left{
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+/*-------- fin page tableau-------------*/
 
 
 
