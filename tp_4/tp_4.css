@@ -9,6 +9,7 @@
     margin: 0px 210px;
     color: white;
 }
+
 /* zone du haut */
 
 /* hedear */
@@ -94,11 +95,7 @@ nav a{
     left: 60px;
     color: black;
 }
-/* #searchbar{
-    position:relative; 
-    width:1040px; 
-    height:100px;
-} */
+
 .formulaire{
     display:inline-block;
 }
@@ -230,13 +227,559 @@ nav a{
 /*fin section 1*/
 
 /* section 2*/
-.fab_fa-dashcube{
-   
-   
+.fas fa lock{
+    position: absolute;
+    left: 13%;
+    top: 80%;
     
 }
-
+.fas{
+    position: absolute;
+    top: 76%;
+    left: 14%;
+    text-transform: Uppercase;
+    color: gray;
+    
+}
+.truck{
+    position: absolute;
+    top: 80%;
+    left: 14.2%;
+    text-transform: Uppercase;
+    color: gray;
+}
+#carrelage img{
+    margin-left: 12%;
+    margin-top: 2.3%;
+}
+.capture{
+    position: absolute;
+    top: 75%;
+    left: 27%;
+    text-transform: Uppercase;
+    color: gray;
+}
+#plaque img{
+    margin-left: 11.5%;
+    margin-top: 0%;
+}
+.echantillon{
+    text-transform: Uppercase;
+    color: gray;
+    position: absolute;
+    top: 80%;
+    left: 27%;
+}
+.smile{
+    text-transform: Uppercase;
+    color: gray;
+    position: absolute;
+    top: 75%;
+    left: 39%;
+}
+.echange{
+    text-transform: Uppercase;
+    color: gray;
+    position: absolute;
+    top: 80%;
+    left: 39%;
+}
+.euro{
+    text-transform: Uppercase;
+    color: gray;
+    position: absolute;
+    top: 76%;
+    left: 61%;
+}
 /* fin section 2*/
+
+
+/* debut section 3*/
+.produit{
+    text-transform: Uppercase;
+    background-color: #e40475;
+    width: 167px;
+    height: 30px;
+    position: absolute;
+    top: 89%;
+    left: 12%;
+    color: white;
+    text-align: center;
+}
+.produit2{
+    top: 89%;
+    left: 12%;
+    width: 0px;
+    height: 0px;
+    border-bottom: 40px solid #e40475;
+    border-right: 30px solid transparent;
+    position: absolute;
+    top: 90.6%;
+    left: 20.7%
+}
+
+.p{
+    width: 1134px;
+    position: absolute;
+    top: 92%;
+    left: 21.5%;
+}
+/* image 1 */
+ .e{
+        margin-left: 14%;
+        font-style: gras;
+    }
+    .prix{
+        color: #e40475;
+        font-style: gras;
+        margin-left: 16%;
+    }
+#des{
+    background-color: rgb(71, 69, 69);
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 13%;
+    text-align: center;
+}
+#des2{
+    background-color: #e40475;
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 19.5%;
+    text-align: center;
+    height: 20px;
+}
+.ajout{
+    position: relative;
+    bottom: 80%;
+    left: 8%;
+}
+#des3{
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    width: 13.3%;
+    margin-left: 238.5px;
+    margin-top: 1%;
+
+}
+/* image 2 */
+
+.e2{
+    position: absolute;
+    top: 123%;
+    left: 44%;
+}    
+    .prix2{
+        color: #e40475;
+        font-style: gras;
+        position: absolute;
+        top: 129%;
+        left: 46%;
+    }
+#desa{
+    background-color: rgb(71, 69, 69);
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 42%;
+    text-align: center;
+    top: 131%;;
+}
+
+#desa2{
+    background-color: #e40475;
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 48.5%;
+    text-align: center;
+    height: 20px;
+    top: 131%;
+}
+#desa3{
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    width: 13.2%;
+    position: absolute;
+    top: 133.1%;
+    left: 42%;
+    height: 18px;
+}
+.devis{
+    position: absolute;
+    top: -96%;
+    left: 23px;
+}
+
+/* pour la bande sur l'image */
+#sur_image{
+    background-color: #e40475;
+    color: #fff;
+    text-align: center;
+    width: 239px;
+    height: 36px;
+    position: absolute;
+    left: 39%;
+    top: 100%;
+    transform: rotate(-40deg);
+    border-right: 30px solid transparent;
+}
+/* image 3 */
+.f{
+    position: absolute;
+    top: 123%;
+    left: 70%;
+}    
+    .prix3{
+        color: #e40475;
+        font-style: gras;
+        position: absolute;
+        top: 129%;
+        left: 72%;
+    }
+#desb{
+    background-color: rgb(71, 69, 69);
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 68%;
+    text-align: center;
+    top: 131%;;
+}
+
+#desb1{
+    background-color: #e40475;
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 74.5%;
+    text-align: center;
+    height: 20px;
+    top: 131%;
+}
+#desb2{
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    width: 13.2%;
+    position: absolute;
+    top: 133.1%;
+    left: 68%;
+    height: 18px;
+}
+.devis2{
+    position: absolute;
+    top: -96%;
+    left: 23px;
+}
+
+/* pour la bande sur l'image */
+#sur_image2{
+    background-color: #e40475;
+    color: #fff;
+    text-align: center;
+    width: 239px;
+    height: 36px;
+    position: absolute;
+    left: 65%;
+    top: 100%;
+    transform: rotate(-40deg);
+    border-right: 30px solid transparent;
+}
+
+/* image 3 */
+.f{
+    position: absolute;
+    top: 124%;
+    left: 69%;
+}    
+    .prix3{
+        color: #e40475;
+        font-style: gras;
+        position: absolute;
+        top: 130%;
+        left: 71%;
+    }
+#desb{
+    background-color: rgb(71, 69, 69);
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 68%;
+    text-align: center;
+    top: 132%;
+}
+
+#desb1{
+    background-color: #e40475;
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 74.5%;
+    text-align: center;
+    height: 20px;
+    top: 132%;
+}
+#desb2{
+   background-color: gray;
+   color: #fff;
+   text-align: center;
+   width: 13.2%;
+   position: absolute;
+   left: 68%;
+   height: 18px;
+   top: 134.1%;
+}
+.devis3{
+    position: absolute;
+    top: -96%;
+    left: 23px;
+}
+
+/* pour la bande sur l'image */
+#sur_image2{
+    background-color: #e40475;
+    color: #fff;
+    text-align: center;
+    width: 239px;
+    height: 36px;
+    position: absolute;
+    left: 65%;
+    top: 100%;
+    transform: rotate(-40deg);
+    border-right: 30px solid transparent;
+}
+/* image 4 */
+.f2 {
+
+    position: absolute;
+    top: 172%;
+    left: 14%;
+}
+.prix4 {
+
+    color: #e40475;
+    font-style: gras;
+    position: absolute;
+    top: 178%;
+    left: 16%;
+
+}
+#des_c {
+
+    background-color: rgb(71, 69, 69);
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 13%;
+    text-align: center;
+    top: 180%;
+
+}
+#des_c1 {
+
+    background-color: #e40475;
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 19.5%;
+    text-align: center;
+    height: 20px;
+    top: 180%;
+
+}
+
+#des_c2 {
+
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    width: 13.1%;
+    position: absolute;
+    left: 13%;
+    height: 18px;
+    top: 182.1%;
+
+}
+.devis3 {
+
+    position: absolute;
+    top: -96%;
+    left: 23px;
+
+}
+/* image 5 */
+.f3{
+
+    position: absolute;
+    top: 172%;
+    left: 44%;
+}
+.prix5 {
+
+    color: #e40475;
+    font-style: gras;
+    position: absolute;
+    top: 178%;
+    left: 46%;
+
+}
+#des_d {
+
+    background-color: rgb(71, 69, 69);
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 42%;
+    text-align: center;
+    top: 180%;
+
+}
+#des_d1 {
+
+    background-color: #e40475;
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 48.5%;
+    text-align: center;
+    height: 20px;
+    top: 180%;
+
+}
+
+#des_d2 {
+
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    width: 13.1%;
+    position: absolute;
+    left: 42%;
+    height: 18px;
+    top: 182.1%;
+
+}
+.devis3 {
+
+    position: absolute;
+    top: -96%;
+    left: 23px;
+
+}
+
+/* image 6 */
+.f4{
+
+    position: absolute;
+    top: 172%;
+    left: 70%;
+}
+.prix6 {
+
+    color: #e40475;
+    font-style: gras;
+    position: absolute;
+    top: 178%;
+    left: 73%;
+
+}
+#des_e {
+
+    background-color: rgb(71, 69, 69);
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 68%;
+    text-align: center;
+    top: 180%;
+
+}
+#des_e1 {
+
+    background-color: #e40475;
+    color: #fff;
+    width: 126px;
+    position: absolute;
+    left: 74.5%;
+    text-align: center;
+    height: 20px;
+    top: 180%;
+
+}
+
+#des_e2 {
+
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    width: 13.1%;
+    position: absolute;
+    left: 68%;
+    height: 18px;
+    top: 182.1%;
+
+}
+.devis3 {
+
+    position: absolute;
+    top: -96%;
+    left: 23px;
+
+}
+#sur_image3{
+    background-color: #e40475;
+    color: #fff;
+    text-align: center;
+    width: 239px;
+    height: 36px;
+    position: absolute;
+    left: 65%;
+    top: 146%;
+    transform: rotate(-40deg);
+    border-right: 30px solid transparent;
+}
+
+/* fin section 3*/
+
+/* debut section 4*/
+.eshop{
+    text-transform: Uppercase;
+    color: #fff;
+    background-color: #e40475;
+    height: 30px;
+    width: 123px;
+    position: absolute;
+    top: 193.8%;
+    left: 13%;
+    text-align: center;
+}
+.triangle{
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 36px solid #e40475;
+    position: absolute;
+    top: 193.9%;
+    left: 19.4%;
+}
+#gray{
+   width: 1293px;
+   height: 438px;
+   margin: auto;
+   background-color: gray;
+   position: absolute;
+   top: 197%;
+   left: 12.9%;
+   
+}
+.adresse, .telephonne, .mail, .horaire, .nous{
+    background: url(img/sprites.png);
+
+}
 
 
 
