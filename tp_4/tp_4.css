@@ -768,7 +768,7 @@ nav a{
 }
 #gray{
    width: 1293px;
-   height: 438px;
+   height: 367px;
    margin: auto;
    background-color: gray;
    position: absolute;
@@ -776,23 +776,213 @@ nav a{
    left: 12.9%;
    
 }
-.adresse, .telephonne, .mail, .horaire, .nous{
-    background: url(img/sprites.png);
+.adresse_img{
+    background: url(img/sprites.png) 1px -104px;;
+    height: 38px;
+    width: 41px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    
+}
+.adresse{
+    color: #fff;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+.telephone_img{
+    background: url(img/sprites.png) 1px -138px;;
+    height: 38px;
+    width: 41px;
+    position: absolute;
+    top: 32%;
+    left: 5%;
+}
+.telephone{
+    color: #fff;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+.mail_img{
+    background: url(img/sprites.png) 1px 0px;;
+    height: 38px;
+    width: 41px;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+}
+.mail{
+    color: #fff;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+.horaire_img{
+    background: url(img/sprites.png) 1px 0px;;
+    height: 38px;
+    width: 41px;
+    position: absolute;
+    top: 9%;
+    left: 36%;
+}
+.horaire{
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.nous_img{
+    background: url(img/sprites.png) 1px 0px;;
+    height: 38px;
+    width: 41px;
+    position: absolute;
+    top: 9%;
+    left: 69%;
+}
+.nous{
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 73%;
+}
+.bas_rose{
+    color: #e40475;
+    position: absolute;
+    left: 35%;
+    top: 91%;
+}
+.h{
+    position: absolute;
+    top: 44%;
+    left: 23%;
+    width: 20%;
+    transform: rotate(90deg);
+}
+.h_2{
+    position: absolute;
+    top: 44%;
+    left: 58%;
+    width: 20%;
+    transform: rotate(90deg);
+}
+/* fin section 4*/
+
+/* debut section 5*/
+#bas{
+    margin-top:50.5%;
+    background-color: #f5eee6;
+    width: 100%;
+    height: 735px;
+}
+
+h3{
+    float: left;
+    padding-left: 171px;
+padding-right: 197px;
+}
+.carte{
+    position: absolute;
+    top: 244%;
+    left: 11%;
+}
+.map{
+    height: 135px;
+    width: 135px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+ul li{
+    list-style: none;
+    
+  
+}
+ul li a{
+    color: gray;
+}
+.qualité{
+    position: absolute;
+    top: 245%;
+    left: 57%;
+}
+.mention_jaime{
+    height: 180px;
+    width: 320px;
+    position: absolute;
+    top: 245%;
+    left: 78%;
+}
+.inscription{
+    height: 180px;
+    width: 320px;
+    position: absolute;
+    top: 265%;
+    left: 78%;
+    background-color: #EBE7E8;
+    text-align: center;
+    border: 2px solid white;
+}
+.formulaire_2 .champ_2{
+    width: 164px;
+    height: 16px;
+    position: absolute;
+    top: 54.3%;
+    left: 15%;
+    color: gray
 
 }
 
+.formulaire_2, bouton_2{ 
+    width: 18px;
+    height: 21.3px;
+    margin-left: 70%;
 
+}
+.envoi{
+    height: 234px;
+    width: 320px;
+    position: absolute;
+    top: 109%;
+    left: 0%;
+    background-color: #EBE7E8;
+    text-align: center;
+    border: 2px solid white;
+}
+/* première barre de recherche */
 
+.formulaire_3 .champ_3{
+    width: 164px;
+    height: 16px;
+    position: absolute;
+    top: 51.3%;
+    left: 15%;
+    color: gray
 
+}
 
+.formulaire_3, bouton_3{ 
+    width: 18px;
+    height: 21.3px;
+    margin-left: 70%;
 
+}
+/* deuxieme barre de recherche */
 
+.formulaire_4 .champ_4{
+    width: 164px;
+    height: 16px;
+    position: absolute;
+    top: 82.3%;
+    left: 15%;
+    color: gray
 
+}
 
+.formulaire_4, bouton_4{ 
+    width: 18px;
+    height: 21.3px;
+    margin-left: 70%;
 
-
-
-
+}
 
 
 
