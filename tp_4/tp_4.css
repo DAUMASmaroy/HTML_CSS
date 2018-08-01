@@ -21,7 +21,7 @@
 .devis{
     position: absolute;
     top: 5%;
-    left: 60%;
+    left: 1126px;
     
 }
 .devis img{
@@ -236,7 +236,7 @@ nav a{
 .fas{
     position: absolute;
     top: 76%;
-    left: 14%;
+    left: 18%;
     text-transform: Uppercase;
     color: gray;
     
@@ -244,23 +244,23 @@ nav a{
 .truck{
     position: absolute;
     top: 80%;
-    left: 14.2%;
+    left: 18.2%;
     text-transform: Uppercase;
     color: gray;
 }
 #carrelage img{
-    margin-left: 12%;
+    margin-left: 17%;
     margin-top: 2.3%;
 }
 .capture{
     position: absolute;
     top: 75%;
-    left: 27%;
+    left: 32%;
     text-transform: Uppercase;
     color: gray;
 }
 #plaque img{
-    margin-left: 11.5%;
+    margin-left: 16.5%;
     margin-top: 0%;
 }
 .echantillon{
@@ -268,28 +268,28 @@ nav a{
     color: gray;
     position: absolute;
     top: 80%;
-    left: 27%;
+    left: 32%;
 }
 .smile{
     text-transform: Uppercase;
     color: gray;
     position: absolute;
     top: 75%;
-    left: 39%;
+    left: 46%;
 }
 .echange{
     text-transform: Uppercase;
     color: gray;
     position: absolute;
     top: 80%;
-    left: 39%;
+    left: 46%;
 }
 .euro{
     text-transform: Uppercase;
     color: gray;
     position: absolute;
     top: 76%;
-    left: 61%;
+    left: 65%;
 }
 /* fin section 2*/
 
@@ -409,10 +409,18 @@ nav a{
     left: 42%;
     height: 18px;
 }
-.devis{
+.devis2{
     position: absolute;
     top: -96%;
     left: 23px;
+}
+.p{
+    width: 239px;
+    height: 239px;
+    left: 42%;
+    top: 909px;
+    /* background: rgba(172,236,250,0.5); */
+    overflow: hidden;
 }
 
 /* pour la bande sur l'image */
@@ -423,8 +431,8 @@ nav a{
     width: 239px;
     height: 36px;
     position: absolute;
-    left: 39%;
-    top: 100%;
+    left: -27%;
+    top: 10%;
     transform: rotate(-40deg);
     border-right: 30px solid transparent;
 }
@@ -478,69 +486,16 @@ nav a{
 }
 
 /* pour la bande sur l'image */
-#sur_image2{
-    background-color: #e40475;
-    color: #fff;
-    text-align: center;
-    width: 239px;
-    height: 36px;
-    position: absolute;
-    left: 65%;
-    top: 100%;
-    transform: rotate(-40deg);
-    border-right: 30px solid transparent;
-}
+.prom{
 
-/* image 3 */
-.f{
-    position: absolute;
-    top: 124%;
-    left: 69%;
-}    
-    .prix3{
-        color: #e40475;
-        font-style: gras;
-        position: absolute;
-        top: 130%;
-        left: 71%;
-    }
-#desb{
-    background-color: rgb(71, 69, 69);
-    color: #fff;
-    width: 126px;
+    width: 239px;
+    height: 239px;
     position: absolute;
     left: 68%;
-    text-align: center;
-    top: 132%;
+    top: 914px;
+    /* background: rgba(172,236,250,0.5); */
+    overflow: hidden;
 }
-
-#desb1{
-    background-color: #e40475;
-    color: #fff;
-    width: 126px;
-    position: absolute;
-    left: 74.5%;
-    text-align: center;
-    height: 20px;
-    top: 132%;
-}
-#desb2{
-   background-color: gray;
-   color: #fff;
-   text-align: center;
-   width: 13.2%;
-   position: absolute;
-   left: 68%;
-   height: 18px;
-   top: 134.1%;
-}
-.devis3{
-    position: absolute;
-    top: -96%;
-    left: 23px;
-}
-
-/* pour la bande sur l'image */
 #sur_image2{
     background-color: #e40475;
     color: #fff;
@@ -548,12 +503,15 @@ nav a{
     width: 239px;
     height: 36px;
     position: absolute;
-    left: 65%;
-    top: 100%;
+    left: -17%;
+    top: 10%;
     transform: rotate(-40deg);
     border-right: 30px solid transparent;
 }
+
+
 /* image 4 */
+
 .f2 {
 
     position: absolute;
@@ -731,6 +689,16 @@ nav a{
     left: 23px;
 
 }
+.prom_2{
+    width: 239px;
+    height: 239px;
+    position: absolute;
+    left: 68%;
+    top: 1359px;
+    /* background: rgba(172,236,250,0.5); */
+    overflow: hidden;
+}
+
 #sur_image3{
     background-color: #e40475;
     color: #fff;
@@ -738,8 +706,8 @@ nav a{
     width: 239px;
     height: 36px;
     position: absolute;
-    left: 65%;
-    top: 146%;
+    left: -19%;
+    top: 12%;
     transform: rotate(-40deg);
     border-right: 30px solid transparent;
 }
@@ -941,8 +909,8 @@ ul li a{
     height: 234px;
     width: 320px;
     position: absolute;
-    top: 109%;
-    left: 0%;
+   top: 286%;
+    left: 78%;
     background-color: #EBE7E8;
     text-align: center;
     border: 2px solid white;
@@ -983,10 +951,30 @@ ul li a{
     margin-left: 70%;
 
 }
+.fin{
+    position: absolute;
+    top: 278%;
+    right: 45%;
+    width: 1005px;
+    height: 334px;
+}
+/* fin section 5 */
 
-
-
-
+/* debut footer */
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 19%;
+}
+.p_1{
+    position: absolute;
+    top: 314%;
+    left: 1%;
+}
+.p_2{
+    margin-left: 72%;
+}
+/* fin footer */
 
 
 .clear{

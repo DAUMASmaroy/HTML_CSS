@@ -1,0 +1,43 @@
+.p-2{
+    padding: 0.5rem !important;
+    margin-left: 10%;
+}
+.alert-dark {
+    color: #fff;
+    background-color: gray;
+    border-color: #c6c8ca;
+    height: 51px;
+}
+/* section 1 */
+#caroussel{
+    width: 40%;
+    height: 300px;
+    position: relative;
+    left: 10%;
+}
+
+.mx-auto1{
+
+    margin-left: 75% !important;
+    margin-top: -17%;
+    height: 215px;
+}
+.mx-auto{
+    margin-left: 75% !important;
+    height: 213px;
+    margin-top: 1%;
+}
+/* bandeau sur image */
+.alert-danger2{
+    color: #fff;
+    background-color: #e40475;
+}
+.alert-danger3{
+    color: #fff;
+    background-color: #e40475;
+}
+
+
+
+
+/* fin section 1 */
